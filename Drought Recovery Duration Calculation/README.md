@@ -84,7 +84,8 @@ All datasets used in this study are derived from publicly available sources, and
 │           ├── New_England_Tableland/
 │           ├── Northwest_Highlands/
 │           ├── Southeast_Queensland/
-│           └── Wet_Tropics/```
+│           └── Wet_Tropics/
+```
 
 
 ## Folder Descriptions
