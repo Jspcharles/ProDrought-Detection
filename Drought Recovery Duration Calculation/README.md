@@ -89,7 +89,7 @@ All datasets used in this study are derived from publicly available sources, and
 
 
 ## Folder Descriptions
-Aus_Shap_File/
+`Aus_Shap_File/`
 
 Contains vector boundary files used for spatial operations, including masking, cropping, and region-based aggregation. These shapefiles define the spatial extent of Australia, Queensland, and bioregional boundaries used throughout the analysis.
 
