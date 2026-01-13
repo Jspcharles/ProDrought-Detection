@@ -93,62 +93,62 @@ All datasets used in this study are derived from publicly available sources, and
 
 Contains vector boundary files used for spatial operations, including masking, cropping, and region-based aggregation. These shapefiles define the spatial extent of Australia, Queensland, and bioregional boundaries used throughout the analysis.
 
-Data_for_CD_Label/
+`Data_for_CD_Label/`
 
 Stores intermediate tabular outputs used during consecutive drought (CD) labelling, including threshold definition, calibration, and sensitivity analysis. These files support the rule-based identification of drought onset, termination, and recovery periods.
 
-Data_for_Modelling/
+`Data_for_Modelling/`
 
 Contains climate variables prepared for use as deep-learning model inputs.
 
-1_AUS/
+`1_AUS/`
 
 National-scale annual climate datasets downloaded from source providers prior to spatial subsetting.
 
-2_QLD_Cropped/
+`2_QLD_Cropped/`
 
 Climate datasets spatially clipped to Queensland boundaries using the provided shapefiles.
 
-3_QLD_Cleaned_Data/
+`3_QLD_Cleaned_Data/`
 
 Quality-controlled and harmonised Queensland datasets used directly in model training and evaluation.
 
 Each climate variable is organised into a dedicated subfolder:
 
-Max_Temp – maximum temperature
+`Max_Temp` – maximum temperature
 
-Min_Temp – minimum temperature
+`Min_Temp` – minimum temperature
 
-Radiation – surface solar radiation
+`Radiation` – surface solar radiation
 
-Rainfall – precipitation
+`Rainfall` – precipitation
 
 Vapour_Pressure_Deficit – atmospheric moisture demand
 
-Data_for_SPI/
+`Data_for_SPI/`
 
 Contains rainfall inputs and derived drought indices used for Standardised Precipitation Index (SPI) analysis.
 
-Monthly_Rainfall_for_SPI/
+`Monthly_Rainfall_for_SPI/`
 
 Monthly rainfall data prepared as input for SPI calculation.
 
-Rainfall_2000/
+`Rainfall_2000/`
 
 Baseline rainfall data used to initialise SPI time series.
 
-Rainfall_Cropped_QLD/
+`Rainfall_Cropped_QLD/`
 
 Queensland-specific rainfall datasets derived from national products.
 
-Region_Separated_Monthly_Rainfall/
+`Region_Separated_Monthly_Rainfall/`
 
 Monthly rainfall data aggregated by bioregion to support region-wise SPI computation.
 
-Region_wise_SPI/
+`Region_wise_SPI/`
 
 SPI outputs generated separately for each bioregion, including summary CSV files and intermediate SPI products.
 
-Vapour_Pressure_Deficit/Region_Separated_Monthly_VPD/
+`Vapour_Pressure_Deficit/Region_Separated_Monthly_VPD/`
 
 Monthly VPD datasets aggregated by bioregion, used to characterise vegetation stress and support recovery analysis.
