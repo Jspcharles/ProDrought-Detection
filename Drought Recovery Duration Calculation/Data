@@ -1,0 +1,80 @@
+data/
+├── Aus_Shap_File/
+│
+├── Data_for_CD_Label/
+│
+├── Data_for_Modelling/
+│   └── Annual_DB/
+│       ├── 1_AUS/
+│       │   ├── Max_Temp/
+│       │   ├── Min_Temp/
+│       │   ├── Radiation/
+│       │   ├── Rainfall/
+│       │   └── Vapour_Pressure_Deficit/
+│       │
+│       ├── 2_QLD_Cropped/
+│       │   ├── Max_Temp/
+│       │   ├── Min_Temp/
+│       │   ├── Radiation/
+│       │   └── Rainfall/
+│       │
+│       └── 3_QLD_Cleaned_Data/
+│           ├── Max_Temp/
+│           ├── Min_Temp/
+│           ├── Radiation/
+│           └── Rainfall/
+│
+├── Data_for_SPI/
+│   ├── Monthly_Rainfall_for_SPI/
+│   ├── Rainfall_2000/
+│   │   ├── Monthly_Rainfall/
+│   │   └── Region_Rainfall/
+│   │
+│   ├── Rainfall_Cropped_QLD/
+│   │
+│   ├── Region_Separated_Monthly_Rainfall/
+│   │   ├── Brigalow_Belt/
+│   │   ├── Cape_York_Peninsula/
+│   │   ├── Central_Queensland_Coast/
+│   │   ├── Channel_Country/
+│   │   ├── Desert_Uplands/
+│   │   ├── Einasleigh_Uplands/
+│   │   ├── Gulf_Plains/
+│   │   ├── Mitchell_Grass_Downs/
+│   │   ├── Mulga_Lands/
+│   │   ├── New_England_Tableland/
+│   │   ├── Northwest_Highlands/
+│   │   ├── Southeast_Queensland/
+│   │   └── Wet_Tropics/
+│   │
+│   ├── Region_wise_SPI/
+│   │   ├── All_Region_SPI_CSVs/
+│   │   ├── Brigalow_Belt/
+│   │   ├── Cape_York_Peninsula/
+│   │   ├── Central_Queensland_Coast/
+│   │   ├── Channel_Country/
+│   │   ├── Desert_Uplands/
+│   │   ├── Einasleigh_Uplands/
+│   │   ├── Gulf_Plains/
+│   │   ├── Mitchell_Grass_Downs/
+│   │   ├── Mulga_Lands/
+│   │   ├── New_England_Tableland/
+│   │   ├── Northwest_Highlands/
+│   │   ├── Southeast_Queensland/
+│   │   └── Wet_Tropics/
+│   │
+│   └── Vapour_Pressure_Deficit/
+│       └── Region_Separated_Monthly_VPD/
+│           ├── Brigalow_Belt/
+│           ├── Cape_York_Peninsula/
+│           ├── Central_Queensland_Coast/
+│           ├── Channel_Country/
+│           ├── Desert_Uplands/
+│           ├── Einasleigh_Uplands/
+│           ├── Gulf_Plains/
+│           ├── Mitchell_Grass_Downs/
+│           ├── Mulga_Lands/
+│           ├── New_England_Tableland/
+│           ├── Northwest_Highlands/
+│           ├── Southeast_Queensland/
+│           └── Wet_Tropics/
