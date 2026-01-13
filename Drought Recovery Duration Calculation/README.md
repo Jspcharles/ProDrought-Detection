@@ -5,7 +5,7 @@ Due to the large volume and licensing constraints associated with climate and re
 
 All datasets used in this study are derived from publicly available sources, and can be reconstructed using the preprocessing notebooks and scripts provided in the repository.
 
-```data/
+`data/
 ├── Aus_Shap_File/
 │
 ├── Data_for_CD_Label/
@@ -84,7 +84,7 @@ All datasets used in this study are derived from publicly available sources, and
 │           ├── New_England_Tableland/
 │           ├── Northwest_Highlands/
 │           ├── Southeast_Queensland/
-│           └── Wet_Tropics/
+│           └── Wet_Tropics/`
 
 
 ## Folder Descriptions
